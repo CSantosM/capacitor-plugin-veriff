@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export interface VeriffPluginPlugin {\n  start(params: {\n    sessionUrl: string;\n    configuration: { themeColor: string };\n  }): Promise<{ message: string; status: string }>;\n}\n"]}

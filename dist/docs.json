@@ -1,0 +1,31 @@
+{
+  "api": {
+    "name": "VeriffPluginPlugin",
+    "slug": "veriffpluginplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "start",
+        "signature": "(params: { sessionUrl: string; configuration: { themeColor: string; }; }) => Promise<{ message: string; status: string; }>",
+        "parameters": [
+          {
+            "name": "params",
+            "docs": "",
+            "type": "{ sessionUrl: string; configuration: { themeColor: string; }; }"
+          }
+        ],
+        "returns": "Promise<{ message: string; status: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "start"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
